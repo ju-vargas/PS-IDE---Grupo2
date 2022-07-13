@@ -3,42 +3,71 @@ body {
     font-family: Inconsolata;
     }
 
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* height: 591 px;*/
+    /*height: 80%;*/
+    }
 /*julia*/
 
+#about-the-cafe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 742px;
+}
+
+#about-content {
+    height: 742px;
+    width: 460px;
+    align-items:flex-start;
+
+}
+
 .jjtitulo {
-    position: absolute;
+    /*position: absolute;*/
+    margin: auto;
+    margin-top: 0px;
     width: 140px;
     height: 21px;
-    left: 361px;
     top: 36px;
+    margin-bottom: 60px;
+    
   
-    font-family: 'Inconsolata';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 21px;
+    color: white;
+    background-color: black;
     }
   
   .jjtext1 {
-    position: absolute;
+    /*position: absolute;*/
     width: 437px;
-    height: 170px;
+    /*height: 170px;*/
     left: 212px;
     top: 97px;
-  
-    font-family: 'Inconsolata';
+    margin-bottom: 25px;
+    
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 19px;
+    /*line-height: 19px;*/
     }
   
   .jjtext2 {
-    position: absolute;
+    /*position: absolute;*/
     width: 439px;
-    height: 84px;
+    /*height: 84px;*/
     left: 210px;
     top: 267px;
+    
   
     font-family: 'Roboto Condensed';
     font-style: italic;
@@ -48,20 +77,23 @@ body {
     }
   
   .jjimagem1 {
-    position: absolute;
-    width: 437px;
+    /*position: absolute;*/
+    width: 460px;
     height: 262px;
     left: 212px;
     top: 355px;
-    }
+    } 
+    
+
+
   .jjtext3{
-    position: absolute;
+   /* position: absolute;*/
     width: 234px;
     height: 13px;
     left: 212px;
     top: 632px;
+    margin-top: 10px;
   
-    font-family: 'Inconsolata';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -69,13 +101,14 @@ body {
   }
   
   .jjtext4{
-    position: absolute;
+    /*position: absolute;*/
     width: 192px;
     height: 13px;
     left: 212px;
     top: 658px;
+    margin-top: 15px;
   
-    font-family: 'Inconsolata';
+
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -85,14 +118,14 @@ body {
 
 
 /*juliana*/
-
-#menu-section {
+.section{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f7f5f2;
 }
+
 
 #the-menu {
     display: flex;
@@ -152,14 +185,7 @@ body {
     background-color: gray;
     color: white;
 }
-#menu-content {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   /* height: 591 px;*/
-    /*height: 80%;*/
-}
+
 
 #menu-content-list {
     height: 466px; 
@@ -187,9 +213,8 @@ li {
 .div-imagem {
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 269px;
-    width: 100%;
+    width: 460px;
     margin-top:35px ;
     background-color: #f7f5f2; /* era purple*/
     
@@ -204,16 +229,6 @@ li {
 /* FOOTER - Vinicius */
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-
-
-/*@font-face {
-    font-family: 'Inconsolata';
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    src: url(https://fonts.gstatic.com/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRL2l2eY.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}*/
 
 .v_inputs {
 
