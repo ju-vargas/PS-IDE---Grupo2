@@ -1,8 +1,60 @@
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     font-family: Inconsolata;
     }
 
+/*************** NAVIGATION *************/
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+  }
+
+  .navigation li {
+    display: block;
+    text-transform: uppercase;
+  }
+
+/***************** HEADER ***************/
+header {
+    color: white;
+}
+
+.heroimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    text-align: center;
+}
+
+.heroimg h1 {
+    grid-area: 2 / 1 / 3 / 4;
+    margin: auto;
+    font-size: 3em;
+}
+
+.heroimg img {
+    grid-area: 1 / 1 / 4 / 4;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    max-height: 75vh;
+}
+
+.herotext-left {
+    grid-area: 3 / 1 / 4 / 2;
+    background-color: black;
+    padding: 5px;
+    margin: auto;
+}
+
+.herotext-right {
+    grid-area: 3 / 3 / 4 / 4;
+    margin: auto;
+}
 
 .content {
     width: 50%;
