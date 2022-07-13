@@ -210,6 +210,15 @@ li {
     padding-bottom: 15px;
 }
 
+#menu-content-list-2-display {
+    display: none;
+}
+
+#drink {
+    background-color: gray;
+    color: white;
+}
+
 .div-imagem {
     display: flex;
     flex-direction: column;
