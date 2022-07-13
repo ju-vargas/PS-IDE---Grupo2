@@ -85,6 +85,10 @@ body {
     background-color: #f7f5f2; /*era orange*/
 }
 
+#menu-content-list li {
+    padding-bottom: 15px;
+}
+
 li { 
     padding: 20px;
     padding-left: 15px;
