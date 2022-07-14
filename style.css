@@ -90,7 +90,7 @@ header {
 .jjtitulo {
     /*position: absolute;*/
     margin: auto;
-    margin-top: 0px;
+    margin-top: 40px;
     width: 140px;
     height: 21px;
     top: 36px;
@@ -107,7 +107,7 @@ header {
   
   .jjtext1 {
     /*position: absolute;*/
-    width: 437px;
+    width: 100%;
     /*height: 170px;*/
     left: 212px;
     top: 97px;
@@ -116,6 +116,7 @@ header {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
+    text-align: justify;
     /*line-height: 19px;*/
     }
   
@@ -125,12 +126,12 @@ header {
     /*height: 84px;*/
     left: 210px;
     top: 267px;
+    padding: 5%;
     
   
-    font-family: 'Roboto Condensed';
-    font-style: italic;
+    /*font-family: 'Roboto Condensed';*/
     font-weight: 300;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 21px;
     }
   
@@ -140,6 +141,7 @@ header {
     height: 262px;
     left: 212px;
     top: 355px;
+    filter: grayscale(0.7);
     } 
     
 
@@ -158,19 +160,10 @@ header {
     line-height: 13px;
   }
   
-  .jjtext4{
-    /*position: absolute;*/
-    width: 192px;
-    height: 13px;
-    left: 212px;
-    top: 658px;
-    margin-top: 15px;
-  
-
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 13px;
+  .jjcaixinha{
+    background-color: rgb(238, 242, 247);
+    border-left: 6px solid #ccc;
+    width: 100%;
   }
 
 
