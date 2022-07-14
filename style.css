@@ -40,7 +40,6 @@ header {
     grid-area: 2 / 1 / 3 / 4;
     margin: auto;
     font-size: 4em;
-    font-weight: 400;
 }
 
 .heroimg img {
@@ -55,13 +54,12 @@ header {
     grid-area: 3 / 1 / 4 / 2;
     background-color: black;
     padding: .5em;
-    margin: auto auto auto 7.5%;
+    margin: auto;
 }
 
 .herotext-right {
     grid-area: 3 / 3 / 4 / 4;
-    margin: auto 7.5% auto auto;
-    
+    margin: auto;
 }
 
 .content {
@@ -112,7 +110,7 @@ header {
   
   .jjtext1 {
     /*position: absolute;*/
-    width: 100%;
+    width: 437px;
     /*height: 170px;*/
     left: 212px;
     top: 97px;
@@ -122,6 +120,7 @@ header {
     font-weight: 300;
     font-size: 15px;
     text-align: justify;
+
     /*line-height: 19px;*/
     }
   
@@ -131,12 +130,12 @@ header {
     /*height: 84px;*/
     left: 210px;
     top: 267px;
-    padding: 5%;
     
   
-    /*font-family: 'Roboto Condensed';*/
+    font-family: 'Roboto Condensed';
+    font-style: italic;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 21px;
     }
   
@@ -146,7 +145,6 @@ header {
     height: 262px;
     left: 212px;
     top: 355px;
-    filter: grayscale(0.7);
     } 
     
 
@@ -168,10 +166,19 @@ header {
     line-height: 13px;
   }
   
-  .jjcaixinha{
-    background-color: rgb(238, 242, 247);
-    border-left: 6px solid #ccc;
-    width: 100%;
+  .jjtext4{
+    /*position: absolute;*/
+    width: 192px;
+    height: 13px;
+    left: 212px;
+    top: 658px;
+    margin-top: 15px;
+  
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
   }
 
 
@@ -246,15 +253,13 @@ header {
 .span-button:hover {
     background-color: gray;
     color: white;
-    cursor: pointer;
 }
 
 
 #menu-content-list {
-    height: 460px; 
+    height: 466px; 
     width: 460px;
     margin-top: 5px;
-    padding-top: 30px;
     box-shadow: 0 0 0.5em gray;
     background-color: #f7f5f2; /*era orange*/
 }
@@ -270,13 +275,8 @@ li {
 }
 
 .itens-menu-title {
-    /*font-weight: bold;*/
+    font-weight: bold;
     padding-bottom: 15px;
-    color: black;
-}
-
-.itens-menu-text {
-    color: gray;
 }
 
 #menu-content-list-2-display {
@@ -356,7 +356,9 @@ li {
 
 .v_footer p {
 
+
     font-size: 15px;
+
     line-height: 150%;
     text-align: justify;
     margin-top: 5px;
