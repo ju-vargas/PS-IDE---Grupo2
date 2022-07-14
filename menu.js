@@ -8,6 +8,7 @@ drink.addEventListener("click", function(){
     document.getElementById("drink").style.color = "white"; 
     document.getElementById("eat").style.backgroundColor = "#f7f5f2"; 
     document.getElementById("eat").style.color = "black"; 
+    document.getElementById("menu-content-list").style.height = '460px';
 });
 
 eat.addEventListener("click", function(){
@@ -17,5 +18,6 @@ eat.addEventListener("click", function(){
     document.getElementById("eat").style.color = "white"; 
     document.getElementById("drink").style.backgroundColor = "#f7f5f2"; 
     document.getElementById("drink").style.color = "black"; 
+    document.getElementById("menu-content-list").style.height = '505px';
 });
 
