@@ -34,6 +34,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 5fr 1fr;
     text-align: center;
+    filter: grayscale(0.7);
 }
 
 .heroimg h1 {
@@ -100,6 +101,7 @@ header {
     height: 21px;
     top: 36px;
     margin-bottom: 60px;
+    padding-left: 6px;
     
   
     font-style: normal;
