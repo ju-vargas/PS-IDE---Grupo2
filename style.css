@@ -16,8 +16,7 @@ body {
   .navigation li {
     display: block;
     text-transform: uppercase;
-    padding: auto 20%;
-    text-align: center;
+    padding: auto 2em;
   }
 
   .navigation li:hover {
